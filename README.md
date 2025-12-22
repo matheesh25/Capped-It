@@ -6,7 +6,7 @@ Full-stack e-commerce website built with PHP, MySQL, HTML, CSS, and JavaScript.
 ⚠️ This project uses PHP and MySQL and cannot be hosted on GitHub Pages.
 
 ## ▶️ Demo Video
-https://drive.google.com/your-video-link
+(https://drive.google.com/file/d/1DBPekzOmfhcRNAqLO2yYAUbLsx8P23__/view?usp=sharing)
 
 ## 🖼️ Screenshots
 ![Login](screenshots/login.png)
