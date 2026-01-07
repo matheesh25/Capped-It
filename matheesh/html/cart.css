@@ -1,0 +1,105 @@
+/*Design the body of the website by adding business name*/
+body { 
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0; 
+    padding: 0;
+ }
+
+/*Design the home page background*/
+header {
+     display: flex; 
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px 20px;
+     background: #0d08a7;
+     border-bottom: 1px solid white;
+     }
+
+/*Adding a business logo to the home page*/     
+.image5{
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}     
+
+.nav{
+    text-align: center;
+    display: flex;
+    gap: 20px;
+}
+
+.nav a{
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+.nav a.active{
+    border-bottom: 2px solid black;
+}
+
+/*Adding a search container*/
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Pushes the search bar to the right */
+}
+
+/*Adding a search input as */
+ #search-input{
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+ }
+
+ button{
+    padding: 8px;
+    font-size: 14px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+ }
+
+ button:hover{
+    background-color: darkblue;
+ }
+
+ h3{
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+p{
+    font-size: 16px;
+    color: #0f279b;
+}
+#cart-item{
+    list-style: none;
+    padding: 0;
+}
+.add-to-cart{
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.add-to-cart:hover{
+    background-color: #0056b3;
+}
+.container{
+    width: 400px;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    text-align: center;
+    margin: 50px auto;
+}

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Terms and Conditions</title>
+<link rel="icon" type="image/jpg" href="image5.jpg" />
+<style>
+  /* Reset */
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f6fa;
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+  }
+
+  /* Header */
+  .head {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      align-items: center;
+      background: #0d08a7;
+      padding: 10px 40px;
+      border-bottom: 1px solid white;
+  }
+
+  .logo {
+      grid-column: 1;
+  }
+
+  .logo img {
+      height: 120px;
+      width: auto;
+  }
+
+  .nav {
+      grid-column: 2;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+  }
+
+  .nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 5px 10px;
+      transition: all 0.3s ease;
+  }
+
+  .nav a:hover {
+      background-color: #00ccff;
+      color: #000000;
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+      border-radius: 8px;
+  }
+
+  .nav a.active {
+      border-bottom: 2px solid black;
+  }
+
+  /* Terms container */
+  .terms-container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px 40px;
+      border-radius: 10px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  }
+
+  .terms-container h2 {
+      text-align: center;
+      color: #0d08a7;
+      margin-bottom: 25px;
+      font-weight: 700;
+      font-size: 32px;
+  }
+
+  .terms-section {
+      margin-bottom: 25px;
+  }
+
+  .terms-section h3 {
+      color: #0d08a7;
+      margin-bottom: 10px;
+      font-weight: 600;
+      font-size: 22px;
+  }
+
+  .terms-section p {
+      font-size: 18px;
+      line-height: 1.6;
+  }
+
+  .terms-section a {
+      color: #007BFF;
+      text-decoration: underline;
+  }
+
+  .terms-section a:hover {
+      color: #0056b3;
+  }
+
+  /* Footer */
+  footer {
+      background: #000;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+      width: 100%;
+      margin-top: auto;
+      font-size: 16px;
+  }
+</style>
+</head>
+<body>
+<header class="head">
+  <div class="logo">
+    <img src="image5.jpg" alt="Logo" />
+  </div>
+  <nav class="nav">
+    <a href="home.php">Home</a>
+    <a href="product.php">Products</a>
+    <a href="cart.php">Cart</a>
+    <a href="login.php">Login</a>
+    <a href="terms and condition.html" class="active">Terms & Conditions</a>
+  </nav>
+</header>
+
+<div class="terms-container">
+  <h2>Terms and Conditions</h2>
+  
+  <div class="terms-section">
+    <h3>1. Introduction</h3>
+    <p>Welcome to Capped It! These Terms and Conditions govern your use of our website and services. By using our website, you accept these terms in full.</p>
+  </div>
+
+  <div class="terms-section">
+    <h3>2. Use of Website</h3>
+    <p>You agree to use the website only for lawful purposes and not to infringe the rights of others or restrict anyone else’s use of the website.</p>
+  </div>
+
+  <div class="terms-section">
+    <h3>3. Product Information</h3>
+    <p>We strive to provide accurate product information; however, we do not guarantee that descriptions, pricing, or availability are error-free.</p>
+  </div>
+
+  <div class="terms-section">
+    <h3>4. Orders and Payment</h3>
+    <p>All orders are subject to acceptance and availability. Payment methods and billing information must be accurate and up to date.</p>
+  </div>
+
+  <div class="terms-section">
+    <h3>5. Privacy</h3>
+    <p>Your privacy is important to us. Please review our <a href="privacy.html">Privacy Policy</a> to understand how we collect and use your information.</p>
+  </div>
+
+  <div class="terms-section">
+    <h3>6. Changes to Terms</h3>
+    <p>We may update these Terms and Conditions at any time. Your continued use of the website after changes implies acceptance of those changes.</p>
+  </div>
+
+  <div class="terms-section">
+    <h3>7. Contact Us</h3>
+    <p>If you have any questions about these Terms, please contact us at <a href="mailto:cappedit@gmail.com">cappedit@gmail.com</a>.</p>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2025 Capped It. All rights reserved.</p>
+</footer>
+</body>
+</html>
